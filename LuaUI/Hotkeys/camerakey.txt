@@ -12,7 +12,7 @@ bind Alt+sc_t track
 
 // bind Any+alt movereset // fast camera reset on mousewheel
 // bind Any+alt moverotate // rotate on x,y with mmb hold + move (Spring Camera)
-// bind Any+ctrl movetilt // rotate on x with mousewheel
+bind Any+ctrl movetilt // rotate on x with mousewheel
 
 // camera anchors
 bind Shift+sc_q set_camera_anchor 1

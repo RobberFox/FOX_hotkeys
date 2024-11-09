@@ -13,66 +13,61 @@ keyload LuaUI/Hotkeys/selectkey.txt
 keyload LuaUI/Hotkeys/buildkey.txt
 keyload LuaUI/Hotkeys/camerakey.txt
 
-// unit actions
-bind sc_a attack
-bind Ctrl+sc_a areaattack
-bind Ctrl+sc_b selfd
-bind Ctrl+Shift+sc_b selfd queued
-// bind sc_d manualfire
-// bind sc_d manuallaunch
-// bind sc_e reclaim
-// bind sc_f fight
-// bind Alt+sc_f forcestart
+// Unit actions: micro
+bind sc_a wait
+bind Alt+sc_a gatherwait
+bind Ctrl+sc_a stop
+bind Shift+sc_y wait queued
+bind Shift+sc_d command_skip_current
+bind Alt+sc_d command_cancel_last
+
+// Unit actions: construcion
+bind sc_b reclaim
+bind sc_r repair
 bind Shift+sc_d stopproduction
-bind sc_a stop
+bind sc_m restore
+
+// Unit actions: combat
+bind sc_g fight
+bind Alt+sc_g attack
+bind Ctrl+sc_g areaattack
+bind sc_s settarget
+bind Ctrl+sc_s canceltarget
+bind sc_o guard
 bind sc_h patrol
-bind sc_i unit_stats
-bind Ctrl+sc_i customgameinfo
-bind sc_j loadunits
+bind sc_d manualfire
+bind sc_d manuallaunch
+
+// Unit actions: unique
 bind sc_k cloak
 bind sc_k wantcloak
-bind sc_m restore
-bind sc_n command_skip_current
-bind Ctrl+sc_n command_cancel_last
-bind sc_p gatherwait
-bind sc_o guard
-// bind sc_r repair
-// bind sc_s settarget
-// bind Ctrl+sc_s canceltarget
+bind sc_j loadunits
 bind sc_u unloadunits
 bind sc_w resurrect
 bind sc_w capture
-bind sc_y wait
-bind Shift+sc_y wait queued
 
-// keychords
-bind sc_b,sc_b onoff 0
-bind sc_b onoff 1
-bind Shift+sc_b,Shift+sc_b onoff 0
-bind Shift+sc_b onoff 1
+bind Ctrl+sc_b selfd
+bind Ctrl+Shift+sc_b selfd queued
 
-bind sc_l,sc_l,sc_l firestate 1
-bind sc_l,sc_l firestate 0
-bind sc_l firestate 2
-bind Shift+sc_l,Shift+sc_l,Shift+sc_l firestate 1
-bind Shift+sc_l,Shift+sc_l firestate 0
-bind Shift+sc_l firestate 2
+// NOTE: actions, which require mouse pointing, shouldn't be bound to Shift (otherwise they get deselected after Shift depression)
 
-bind sc_;,sc_;,sc_; movestate 1
-bind sc_;,sc_; movestate 0
-bind sc_; movestate 2
-bind Shift+sc_;,Shift+sc_;,Shift+sc_; movestate 1
-bind Shift+sc_;,Shift+sc_; movestate 0
-bind Shift+sc_; movestate 2
-
-bind sc_t,sc_t repeat 0
-bind sc_t repeat 1
-bind Shift+sc_t,Shift+sc_t repeat 0
-bind Shift+sc_t repeat 1
-
-bind Ctrl+sc_g,Ctrl+sc_g factoryguard 0
-bind Ctrl+sc_g factoryguard 1
-
+// Unit actions: keychords (why is there Shift+.. in the defaults?)
+//bind sc_b,sc_b onoff 0
+//bind sc_b onoff 1
+//
+//bind sc_l,sc_l,sc_l firestate 1
+//bind sc_l,sc_l firestate 0
+//bind sc_l firestate 2
+//
+//bind sc_;,sc_;,sc_; movestate 1
+//bind sc_;,sc_; movestate 0
+//bind sc_; movestate 2
+//
+//bind sc_t,sc_t repeat 0
+//bind sc_t repeat 1
+//
+//bind Ctrl+sc_g,Ctrl+sc_g factoryguard 0
+//bind Ctrl+sc_g factoryguard 1
 
 // unsorted
 bind Ctrl+meta+sc_q group unset
@@ -83,3 +78,7 @@ bind [ decreasespeed
 
 bind meta+sc_q,meta+sc_q drawlabel
 bind meta+sc_q drawinmap
+
+// bind Shift+sc_f forcestart
+bind Ctrl+sc_i customgameinfo
+bind sc_i unit_stats

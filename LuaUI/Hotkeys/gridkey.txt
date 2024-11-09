@@ -16,5 +16,5 @@ bind sc_w gridmenu_key 3 2 builder
 bind sc_e gridmenu_key 3 3 builder
 bind sc_r gridmenu_key 3 4 builder
 
-// bind sc_b gridmenu_next_page
-// bind sc_. gridmenu_cycle_builder
+bind sc_b gridmenu_next_page
+bind sc_. gridmenu_cycle_builder
