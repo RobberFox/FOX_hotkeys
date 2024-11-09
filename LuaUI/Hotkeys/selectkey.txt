@@ -14,7 +14,7 @@ bind Alt+sc_f select Visible+_InPrevSel+_ClearSelection_SelectAll+
 bind Alt+sc_g select AllMap+_InPrevSel+_ClearSelection_SelectAll+
 
 bind Alt+sc_d select PrevSelection++_ClearSelection_SelectPart_50+
-bind Ctrl+Alt+sc_d select PrevSelection++_ClearSelection_SelectAll+
+// WIP: bind Ctrl+Alt+sc_d select PrevSelection++_ClearSelection_SelectAll+
 
 bind Ctrl+tab select Visible+_Builder_Idle_Not_IdMatches_armcom_Not_IdMatches_corcom_Not_Building+_ClearSelection_SelectNum_2+ // could make Not_ManualFireUnit
 bind Alt+tab select AllMap+_Buildoptions_Building_Idle+_ClearSelection_SelectOne+

@@ -4,8 +4,8 @@ bind Ctrl+sc_d buildfacing dec
 // bind Alt+sc_x buildspacing inc
 // bind Alt+sc_z buildspacing dec
 // fixing line placement buildspacing issue
-bind Shift+Alt+sc_z buildspacing inc
-bind Shift+Alt+sc_x buildspacing dec
+bind Shift+Alt+sc_x buildspacing inc
+bind Shift+Alt+sc_z buildspacing dec
 
 bind Alt+sc_z areamex
 

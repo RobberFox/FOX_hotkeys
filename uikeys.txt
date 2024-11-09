@@ -13,37 +13,40 @@ keyload LuaUI/Hotkeys/selectkey.txt
 keyload LuaUI/Hotkeys/buildkey.txt
 keyload LuaUI/Hotkeys/camerakey.txt
 
+// Unit actions - why is there Shift+.. in the defaults? - it's for the action order convenience
+
 // Unit actions: micro
 bind sc_a wait
-bind Alt+sc_a gatherwait
+bind Shift+sc_a gatherwait
 bind Ctrl+sc_a stop
 bind Shift+sc_y wait queued
-bind Shift+sc_d command_skip_current
-bind Alt+sc_d command_cancel_last
+bind Ctrl+sc_z command_skip_current
+bind Ctrl+sc_x command_cancel_last
 
 // Unit actions: construcion
 bind sc_b reclaim
-bind sc_r repair
+bind Ctrl+sc_b repair
+bind Alt+sc_b resurrect
 bind Shift+sc_d stopproduction
-bind sc_m restore
+// bind sc_m restore
 
 // Unit actions: combat
 bind sc_g fight
-bind Alt+sc_g attack
-bind Ctrl+sc_g areaattack
-bind sc_s settarget
-bind Ctrl+sc_s canceltarget
-bind sc_o guard
-bind sc_h patrol
-bind sc_d manualfire
-bind sc_d manuallaunch
+bind Ctrl+sc_g attack
+bind Shift+sc_g areaattack
+bind sc_= manualfire
+bind sc_= manuallaunch
+
+// bind sc_w settarget
+// bind Ctrl+sc_w canceltarget
+bind Ctrl+sc_w patrol
+bind sc_w guard
 
 // Unit actions: unique
 bind sc_k cloak
 bind sc_k wantcloak
 bind sc_j loadunits
 bind sc_u unloadunits
-bind sc_w resurrect
 bind sc_w capture
 
 bind Ctrl+sc_b selfd
@@ -51,7 +54,7 @@ bind Ctrl+Shift+sc_b selfd queued
 
 // NOTE: actions, which require mouse pointing, shouldn't be bound to Shift (otherwise they get deselected after Shift depression)
 
-// Unit actions: keychords (why is there Shift+.. in the defaults?)
+// Unit actions: keychords
 //bind sc_b,sc_b onoff 0
 //bind sc_b onoff 1
 //

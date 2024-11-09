@@ -1,4 +1,13 @@
 // camera management
+unbindkeyset Any+sc_e
+unbindkeyset sc_e
+unbindkeyset Any+sc_s
+unbindkeyset sc_s
+unbindkeyset Any+sc_d
+unbindkeyset sc_d
+unbindkeyset Any+sc_f
+unbindkeyset sc_f
+
 bind sc_e moveforward
 bind sc_s moveleft
 bind sc_d moveback
