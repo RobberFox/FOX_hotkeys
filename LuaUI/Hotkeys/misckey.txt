@@ -1,0 +1,54 @@
+// common interface keys
+// bind esc quitmessage
+bind Shift+esc quitmenu
+bind Ctrl+Shift+esc quitforce
+bind Alt+Shift+esc reloadforce
+bind Any+escape edit_escape
+bind Any+pause pause
+bind esc teamstatus_close
+bind esc customgameinfo_close
+bind esc buildmenu_pregame_deselect
+bind Alt+backspace fullscreen
+
+// common chat keys
+bind Any+enter chat
+bind Alt+ctrl+sc_a chatswitchally
+bind Alt+ctrl+sc_s chatswitchspec
+
+bind Any+tab edit_complete
+bind Any+backspace edit_backspace
+bind Any+delete edit_delete
+bind Any+home edit_home
+bind Alt+left edit_home
+bind Any+end edit_end
+bind Alt+right edit_end
+bind Any+up edit_prev_line
+bind Any+down edit_next_line
+bind Any+left edit_prev_char
+bind Any+right edit_next_char
+bind Ctrl+left edit_prev_word
+bind Ctrl+right edit_next_word
+bind Any+enter edit_return
+
+bind Ctrl+v pastetext
+
+// UI
+bind Any+sc_' togglelos
+
+bind Ctrl+meta+5 viewta
+bind Ctrl+meta+6 viewspring
+bind Ctrl+meta+7 HideInterface
+bind meta+5 LastMsgPos
+bind meta+6 ShowPathTraversability
+bind meta+7 ShowMetalMap
+bind meta+8 ShowElevation
+
+bind f10 options
+bind f12 luaui selector
+
+// snd_volume_osd
+bind backspace MuteSound
+bind numpad+ snd_volume_increase
+// bind sc_= snd_volume_increase
+// bind sc_- snd_volume_decrease
+bind numpad- snd_volume_decrease
