@@ -1,5 +1,5 @@
 // common interface keys //
-bind esc quitmessage
+// bind esc quitmessage // collides with the deselect
 // bind Shift+esc quitmenu
 // bind Ctrl+Shift+esc quitforce
 // bind Alt+Shift+esc reloadforce
