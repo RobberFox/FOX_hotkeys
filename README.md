@@ -3,6 +3,8 @@
 Coloured words on the keys correspond to the Alt (yellow), Ctrl (green), Shift (purple) modifiers. Keys that are combinations of multiple modifiers are ommited.
 ### Keybinds with multiple modifiers
 ```txt
+bind Alt+Shift+sc_q remove_from_autogroup
+
 bind Ctrl+Alt+sc_d selfd queued
 
 bind Ctrl+Alt+2 LastMsgPos
