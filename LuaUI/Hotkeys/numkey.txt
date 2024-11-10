@@ -1,5 +1,5 @@
-// bind Alt+sc_q remove_from_autogroup
-// bind Ctrl+meta+sc_q group unset
+bind Alt+sc_q group unset
+bind Alt+Shift+sc_q remove_from_autogroup
 
 // group recovery //
 bind 0 group select 0

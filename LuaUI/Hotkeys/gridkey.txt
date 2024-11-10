@@ -16,19 +16,18 @@ bind sc_w gridmenu_key 3 2 builder
 bind sc_e gridmenu_key 3 3 builder
 bind sc_r gridmenu_key 3 4 builder
 
-// WIP: IDK what to do with factory gridmenu
-// bind sc_z gridmenu_key 1 1 factory
-// bind sc_x gridmenu_key 1 2 factory
-// bind sc_c gridmenu_key 1 3 factory
-// bind sc_v gridmenu_key 1 4 factory
-// bind sc_a gridmenu_key 2 1 factory
-// bind sc_s gridmenu_key 2 2 factory
-// bind sc_d gridmenu_key 2 3 factory
-// bind sc_f gridmenu_key 2 4 factory
-// bind sc_q gridmenu_key 3 1 factory
-// bind sc_w gridmenu_key 3 2 factory
-// bind sc_e gridmenu_key 3 3 factory
-// bind sc_r gridmenu_key 3 4 factory
+bind sc_z,sc_z gridmenu_key 1 1 factory
+bind sc_z,sc_x gridmenu_key 1 2 factory
+bind sc_z,sc_c gridmenu_key 1 3 factory
+bind sc_z,sc_v gridmenu_key 1 4 factory
+bind sc_z,sc_a gridmenu_key 2 1 factory
+bind sc_z,sc_s gridmenu_key 2 2 factory
+bind sc_z,sc_d gridmenu_key 2 3 factory
+bind sc_z,sc_f gridmenu_key 2 4 factory
+bind sc_z,sc_q gridmenu_key 3 1 factory
+bind sc_z,sc_w gridmenu_key 3 2 factory
+bind sc_z,sc_e gridmenu_key 3 3 factory
+bind sc_z,sc_r gridmenu_key 3 4 factory
 
 bind sc_n gridmenu_next_page
 bind sc_. gridmenu_cycle_builder

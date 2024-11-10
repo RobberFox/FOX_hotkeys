@@ -4,7 +4,7 @@ bind sc_s moveleft
 bind sc_d moveback
 bind sc_f moveright
 
-// bind sc_r toggleoverview
+bind Shift+sc_r toggleoverview
 // bind Alt+sc_o cameraflip
 
 bind Ctrl+sc_t track

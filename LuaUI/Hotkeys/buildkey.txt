@@ -1,13 +1,13 @@
 // building //
-bind Ctrl+sc_c buildfacing inc
-bind Ctrl+sc_v buildfacing dec
+bind Shift+sc_c buildfacing inc
+bind Shift+sc_v buildfacing dec
 // bind Alt+sc_x buildspacing inc
 // bind Alt+sc_z buildspacing dec
 // fixing line placement buildspacing issue
 bind Shift+Alt+sc_x buildspacing inc
 bind Shift+Alt+sc_z buildspacing dec
 
-bind Shift+sc_c areamex
+bind Ctrl+sc_c areamex
 
 // blueprint //
 bind Alt+sc_v blueprint_place
