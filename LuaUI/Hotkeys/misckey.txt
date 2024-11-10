@@ -1,16 +1,16 @@
-// common interface keys
-// bind esc quitmessage
-bind Shift+esc quitmenu
-bind Ctrl+Shift+esc quitforce
-bind Alt+Shift+esc reloadforce
-bind Any+escape edit_escape
-bind Any+pause pause
+// common interface keys //
+bind esc quitmessage
+// bind Shift+esc quitmenu
+// bind Ctrl+Shift+esc quitforce
+// bind Alt+Shift+esc reloadforce
+// bind Any+escape edit_escape
+// bind Any+pause pause
 bind esc teamstatus_close
 bind esc customgameinfo_close
 bind esc buildmenu_pregame_deselect
 bind Alt+backspace fullscreen
 
-// common chat keys
+// common chat keys //
 bind Any+enter chat
 bind Alt+ctrl+sc_a chatswitchally
 bind Alt+ctrl+sc_s chatswitchspec
@@ -30,18 +30,18 @@ bind Ctrl+left edit_prev_word
 bind Ctrl+right edit_next_word
 bind Any+enter edit_return
 
-bind Ctrl+v pastetext
+bind Ctrl+sc_v pastetext
 
-// UI
+// UI //
 bind Any+sc_' togglelos
 
-bind Ctrl+meta+5 viewta
-bind Ctrl+meta+6 viewspring
-bind Ctrl+meta+7 HideInterface
-bind meta+5 LastMsgPos
-bind meta+6 ShowPathTraversability
-bind meta+7 ShowMetalMap
-bind meta+8 ShowElevation
+// bind Ctrl+Alt+6 viewta
+// bind Ctrl+Alt+7 viewspring
+// bind Ctrl+Alt+8 HideInterface
+bind Ctrl+Alt+2 LastMsgPos
+bind Ctrl+Alt+3 ShowPathTraversability
+bind Ctrl+Alt+4 ShowMetalMap
+bind Ctrl+Alt+5 ShowElevation
 
 bind f10 options
 bind f12 luaui selector

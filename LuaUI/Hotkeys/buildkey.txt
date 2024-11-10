@@ -1,24 +1,24 @@
-// building
-bind Ctrl+sc_s buildfacing inc
-bind Ctrl+sc_d buildfacing dec
+// building //
+bind Ctrl+sc_c buildfacing inc
+bind Ctrl+sc_v buildfacing dec
 // bind Alt+sc_x buildspacing inc
 // bind Alt+sc_z buildspacing dec
 // fixing line placement buildspacing issue
 bind Shift+Alt+sc_x buildspacing inc
 bind Shift+Alt+sc_z buildspacing dec
 
-bind Alt+sc_z areamex
+bind Shift+sc_c areamex
 
-// blueprint
-// bind Alt+sc_b blueprint_place
-// bind Alt+sc_c blueprint_create
-// bind Alt+sc_d blueprint_delete
-// bind Alt+sc_[ blueprint_prev
-// bind Alt+sc_] blueprint_next
+// blueprint //
+bind Alt+sc_v blueprint_place
+bind Alt+sc_c blueprint_create
+bind Ctrl+Shift+sc_d blueprint_delete
+bind Alt+sc_z blueprint_prev
+bind Alt+sc_x blueprint_next
 
 bind Any+Ctrl buildsplit // activate build split mode (distribute orders between selected builders) | Build Split Widget
 
-// commandinsert keys - messes with the factory queue
-bind Any+Shift+v commandinsert prepend_between // prepend command into the queue between 2 commands close to cursor
+// commandinsert keys // - messes with the factory queue
+bind Any+Shift+sc_v commandinsert prepend_between // prepend command into the queue between 2 commands close to cursor
 // just ctrl prepends, any+ctrl prepends between
 // bind Any+space commandinsert prepend_queue // prepend command into a separate prepend queue until key released

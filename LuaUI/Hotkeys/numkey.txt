@@ -1,4 +1,7 @@
-// group recovery
+bind Ctrl+meta+sc_q group unset
+bind Alt+sc_q remove_from_autogroup
+
+// group recovery //
 bind 0 group select 0
 bind 1 group select 1
 bind 2 group select 2
@@ -21,7 +24,7 @@ bind 7,7 group focus 7
 bind 8,8 group focus 8
 bind 9,9 group focus 9
 
-// groups
+// groups //
 bind Ctrl+0 group set 0
 bind Ctrl+1 group set 1
 bind Ctrl+2 group set 2
@@ -33,40 +36,40 @@ bind Ctrl+7 group set 7
 bind Ctrl+8 group set 8
 bind Ctrl+9 group set 9
 
-bind Shift+0 group selectadd 0
-bind Shift+1 group selectadd 1
-bind Shift+2 group selectadd 2
-bind Shift+3 group selectadd 3
-bind Shift+4 group selectadd 4
-bind Shift+5 group selectadd 5
-bind Shift+6 group selectadd 6
-bind Shift+7 group selectadd 7
-bind Shift+8 group selectadd 8
-bind Shift+9 group selectadd 9
+// bind Shift+0 group selectadd 0
+// bind Shift+1 group selectadd 1
+// bind Shift+2 group selectadd 2
+// bind Shift+3 group selectadd 3
+// bind Shift+4 group selectadd 4
+// bind Shift+5 group selectadd 5
+// bind Shift+6 group selectadd 6
+// bind Shift+7 group selectadd 7
+// bind Shift+8 group selectadd 8
+// bind Shift+9 group selectadd 9
 
-bind Ctrl+Shift+0 group add 0
-bind Ctrl+Shift+1 group add 1
-bind Ctrl+Shift+2 group add 2
-bind Ctrl+Shift+3 group add 3
-bind Ctrl+Shift+4 group add 4
-bind Ctrl+Shift+5 group add 5
-bind Ctrl+Shift+6 group add 6
-bind Ctrl+Shift+7 group add 7
-bind Ctrl+Shift+8 group add 8
-bind Ctrl+Shift+9 group add 9
+bind Shift+0 group add 0
+bind Shift+1 group add 1
+bind Shift+2 group add 2
+bind Shift+3 group add 3
+bind Shift+4 group add 4
+bind Shift+5 group add 5
+bind Shift+6 group add 6
+bind Shift+7 group add 7
+bind Shift+8 group add 8
+bind Shift+9 group add 9
 
-bind Ctrl+Alt+0 group selecttoggle 0
-bind Ctrl+Alt+1 group selecttoggle 1
-bind Ctrl+Alt+2 group selecttoggle 2
-bind Ctrl+Alt+3 group selecttoggle 3
-bind Ctrl+Alt+4 group selecttoggle 4
-bind Ctrl+Alt+5 group selecttoggle 5
-bind Ctrl+Alt+6 group selecttoggle 6
-bind Ctrl+Alt+7 group selecttoggle 7
-bind Ctrl+Alt+8 group selecttoggle 8
-bind Ctrl+Alt+9 group selecttoggle 9
+// bind Ctrl+Alt+0 group selecttoggle 0
+// bind Ctrl+Alt+1 group selecttoggle 1
+// bind Ctrl+Alt+2 group selecttoggle 2
+// bind Ctrl+Alt+3 group selecttoggle 3
+// bind Ctrl+Alt+4 group selecttoggle 4
+// bind Ctrl+Alt+5 group selecttoggle 5
+// bind Ctrl+Alt+6 group selecttoggle 6
+// bind Ctrl+Alt+7 group selecttoggle 7
+// bind Ctrl+Alt+8 group selecttoggle 8
+// bind Ctrl+Alt+9 group selecttoggle 9
 
-// autogroups
+// autogroups //
 bind Alt+0 add_to_autogroup 0
 bind Alt+1 add_to_autogroup 1
 bind Alt+2 add_to_autogroup 2
@@ -89,7 +92,7 @@ bind Shift+Alt+7 load_autogroup_preset 7
 bind Shift+Alt+8 load_autogroup_preset 8
 bind Shift+Alt+9 load_autogroup_preset 9
 
-// spectators
+// spectators //
 bind 1 specteam 0
 bind 2 specteam 1
 bind 3 specteam 2
