@@ -3,31 +3,36 @@ bind sc_x gridmenu_category 2
 bind sc_c gridmenu_category 3
 bind sc_v gridmenu_category 4
 
-bind sc_z gridmenu_key 1 1 builder
-bind sc_x gridmenu_key 1 2 builder
-bind sc_c gridmenu_key 1 3 builder
-bind sc_v gridmenu_key 1 4 builder
-bind sc_a gridmenu_key 2 1 builder
-bind sc_s gridmenu_key 2 2 builder
-bind sc_d gridmenu_key 2 3 builder
-bind sc_f gridmenu_key 2 4 builder
-bind sc_q gridmenu_key 3 1 builder
-bind sc_w gridmenu_key 3 2 builder
-bind sc_e gridmenu_key 3 3 builder
-bind sc_r gridmenu_key 3 4 builder
+bind Shift+sc_z gridmenu_category 1
+bind Shift+sc_x gridmenu_category 2
+bind Shift+sc_c gridmenu_category 3
+bind Shift+sc_v gridmenu_category 4
 
-bind sc_z,sc_z gridmenu_key 1 1 factory
-bind sc_z,sc_x gridmenu_key 1 2 factory
-bind sc_z,sc_c gridmenu_key 1 3 factory
-bind sc_z,sc_v gridmenu_key 1 4 factory
-bind sc_z,sc_a gridmenu_key 2 1 factory
-bind sc_z,sc_s gridmenu_key 2 2 factory
-bind sc_z,sc_d gridmenu_key 2 3 factory
-bind sc_z,sc_f gridmenu_key 2 4 factory
-bind sc_z,sc_q gridmenu_key 3 1 factory
-bind sc_z,sc_w gridmenu_key 3 2 factory
-bind sc_z,sc_e gridmenu_key 3 3 factory
-bind sc_z,sc_r gridmenu_key 3 4 factory
+bind sc_z gridmenu_key 1 1
+bind sc_x gridmenu_key 1 2
+bind sc_c gridmenu_key 1 3
+bind sc_v gridmenu_key 1 4
+bind sc_a gridmenu_key 2 1
+bind sc_s gridmenu_key 2 2
+bind sc_d gridmenu_key 2 3
+bind sc_f gridmenu_key 2 4
+bind sc_q gridmenu_key 3 1
+bind sc_w gridmenu_key 3 2
+bind sc_e gridmenu_key 3 3
+bind sc_r gridmenu_key 3 4
+
+bind Shift+sc_z gridmenu_key 1 1
+bind Shift+sc_x gridmenu_key 1 2
+bind Shift+sc_c gridmenu_key 1 3
+bind Shift+sc_v gridmenu_key 1 4
+bind Shift+sc_a gridmenu_key 2 1
+bind Shift+sc_s gridmenu_key 2 2
+bind Shift+sc_d gridmenu_key 2 3
+bind Shift+sc_f gridmenu_key 2 4
+bind Shift+sc_q gridmenu_key 3 1
+bind Shift+sc_w gridmenu_key 3 2
+bind Shift+sc_e gridmenu_key 3 3
+bind Shift+sc_r gridmenu_key 3 4
 
 bind Shift+esc gridmenu_next_page
 bind sc_. gridmenu_cycle_builder
