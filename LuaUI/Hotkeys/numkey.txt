@@ -1,5 +1,5 @@
 bind Alt+sc_q group unset
-bind Alt+Shift+sc_q remove_from_autogroup
+bind Alt+Ctrl+sc_q remove_from_autogroup
 
 // group recovery //
 bind 0 group select 0
@@ -35,17 +35,6 @@ bind Ctrl+6 group set 6
 bind Ctrl+7 group set 7
 bind Ctrl+8 group set 8
 bind Ctrl+9 group set 9
-
-// bind Shift+0 group selectadd 0
-// bind Shift+1 group selectadd 1
-// bind Shift+2 group selectadd 2
-// bind Shift+3 group selectadd 3
-// bind Shift+4 group selectadd 4
-// bind Shift+5 group selectadd 5
-// bind Shift+6 group selectadd 6
-// bind Shift+7 group selectadd 7
-// bind Shift+8 group selectadd 8
-// bind Shift+9 group selectadd 9
 
 bind Shift+0 group add 0
 bind Shift+1 group add 1

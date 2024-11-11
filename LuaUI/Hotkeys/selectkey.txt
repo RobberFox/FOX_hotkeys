@@ -19,7 +19,7 @@ bind Shift+sc_d select PrevSelection++_ClearSelection_SelectPart_50+
 bind Shift+sc_z select AllMap+_Transport_Idle+_ClearSelection_SelectAll+
 bind Shift+sc_x select Visible+_Waiting+_ClearSelection_SelectAll+
 
-bind Ctrl+tab select Visible+_Builder_Idle_Not_IdMatches_armcom_Not_IdMatches_corcom_Not_Building+_ClearSelection_SelectNum_2+ // could make Not_ManualFireUnit
+bind Ctrl+tab select Visible+_Builder_Idle_Not_IdMatches_armcom_Not_IdMatches_corcom_Not_Building_Not_Resurrect+_ClearSelection_SelectNum_2+ // could make Not_ManualFireUnit
 bind Alt+tab select AllMap+_Buildoptions_Building_Idle+_ClearSelection_SelectOne+
 
 bind Shift+tab selectcomm append
