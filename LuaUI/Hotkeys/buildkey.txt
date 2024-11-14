@@ -19,5 +19,5 @@ bind Alt+sc_x blueprint_next
 bind Any+Ctrl buildsplit // activate build split mode (distribute orders between selected builders) | Build Split Widget
 
 // commandinsert keys // - messes with the factory queue
-bind Any+Shift+sc_v commandinsert prepend_between // i.e. spatial insert: prepend command into the queue between 2 commands close to cursor. Doesn't work due to d = sqrt(x^2+y^2+z^2) bug.
-// bind Any+space commandinsert prepend_queue // prepend command into a separate prepend queue until key released
+// bind Any+Shift+sc_b commandinsert prepend_between // i.e. spatial insert: prepend command into the queue between 2 commands close to cursor. Doesn't work due to d = sqrt(x^2+y^2+z^2) bug.
+bind Any+Shift+sc_b commandinsert prepend_queue // prepend command into a separate prepend queue until key released

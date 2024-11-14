@@ -35,9 +35,9 @@ bind Ctrl+sc_v pastetext
 // UI //
 bind Any+sc_' togglelos
 
-// bind Ctrl+Alt+6 viewta
-// bind Ctrl+Alt+7 viewspring
-// bind Ctrl+Alt+8 HideInterface
+bind Ctrl+Alt+6 viewta
+bind Ctrl+Alt+7 viewspring
+bind Ctrl+Alt+8 HideInterface
 bind Ctrl+Alt+2 LastMsgPos
 bind Ctrl+Alt+3 ShowPathTraversability
 bind Ctrl+Alt+4 ShowMetalMap

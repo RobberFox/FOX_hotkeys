@@ -4,19 +4,19 @@ bind sc_s moveleft
 bind sc_d moveback
 bind sc_f moveright
 
-bind Shift+sc_r toggleoverview
+bind sc_r toggleoverview
 bind Alt+sc_o cameraflip
 
-bind Ctrl+sc_t track
-bind Alt+sc_t trackmode
+bind Ctrl+sc_r track
+bind Alt+sc_r trackmode
 
 // bind Any+alt movereset // fast camera reset on mousewheel
 // bind Any+alt moverotate // rotate on x,y with mmb hold + move (Spring Camera)
 bind Any+ctrl movetilt // rotate on x with mousewheel
 
-// camera anchors //
-bind Shift+sc_q set_camera_anchor 1
-bind Shift+sc_t set_camera_anchor 2
-
-bind sc_q focus_camera_anchor 1
-bind sc_t focus_camera_anchor 2
+// camera anchors // - don't seem to be useful
+// bind Shift+sc_q set_camera_anchor 1
+// bind Shift+sc_t set_camera_anchor 2
+// 
+// bind sc_q focus_camera_anchor 1
+// bind sc_t focus_camera_anchor 2
