@@ -4,7 +4,7 @@
 // bind Ctrl+Shift+esc quitforce
 // bind Alt+Shift+esc reloadforce
 // bind Any+escape edit_escape
-// bind Any+pause pause
+bind Ctrl+Alt+1 pause
 bind esc teamstatus_close
 bind esc customgameinfo_close
 bind esc buildmenu_pregame_deselect
