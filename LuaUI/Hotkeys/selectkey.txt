@@ -1,9 +1,9 @@
 // common selectbox keys //
-// bind Any+sc_z selectbox_same // select only units that share type with current selection modifier | Smart Select Widget
+// bind Any+alt selectbox_same // select only units that share type with current selection modifier | Smart Select Widget
 bind Any+ctrl selectbox_idle // select only idle units modifier | Smart Select Widget
 bind Any+shift selectbox_all // select all units modifier | Smart Select Widget
-bind Any+ctrl+alt selectbox_deselect // remove units from current selection modifier | Smart Select Widget
-bind Any+alt selectbox_mobile // select only mobile units modifier | Smart Select Widget
+bind Any+alt selectbox_deselect // remove units from current selection modifier | Smart Select Widget
+// bind Any+alt selectbox_mobile // select only mobile units modifier | Smart Select Widget
 
 bind Any+space selectloop // activate select shape | Loop Select Widget
 bind Any+ctrl selectloop_invert // select units not present in current selection modifier | Loop Select Widget
@@ -11,7 +11,7 @@ bind Any+shift selectloop_add // add to selection modifier | Loop Select Widget
 
 // Selection //
 bind Shift+sc_f select Visible+_InPrevSel+_ClearSelection_SelectAll+
-bind Shift+sc_g select AllMap+_InPrevSel+_ClearSelection_SelectAll+
+bind Shift+sc_g select Visible+_InPrevSel_Idle+_ClearSelection_SelectAll+
 
 bind Shift+sc_d select PrevSelection++_ClearSelection_SelectPart_50+
 // WIP: bind Ctrl+Alt+sc_d select PrevSelection++_ClearSelection_SelectAll+
@@ -19,10 +19,11 @@ bind Shift+sc_d select PrevSelection++_ClearSelection_SelectPart_50+
 bind Shift+sc_z select AllMap+_Transport_Idle+_ClearSelection_SelectAll+
 bind Shift+sc_x select Visible+_Waiting+_ClearSelection_SelectAll+
 
-bind Ctrl+tab select Visible+_Builder_Idle_Not_IdMatches_armcom_Not_IdMatches_corcom_Not_Building_Not_Resurrect+_ClearSelection_SelectNum_2+ // could make Not_ManualFireUnit
+bind Ctrl+tab select Visible+_Builder_Idle_Not_ManualFireUnit_Not_Building_Not_Resurrect+_ClearSelection_SelectClosestToCursor+
 bind Alt+tab select AllMap+_Buildoptions_Building_Idle+_ClearSelection_SelectOne+
+bind Shift+tab select Visible+_Resurrect+_ClearSelection_SelectClosestToCursor+
 
-bind Shift+tab selectcomm append
+// bind Shift+tab selectcomm append
 bind tab selectcomm focus
 
 bind esc select AllMap++_ClearSelection_SelectNum_0+

@@ -60,16 +60,16 @@ bind Ctrl+Shift+5 group set 0
 // bind Ctrl+Alt+0 group selecttoggle 0
 
 // autogroups //
+bind Alt+1,Alt+1 add_to_autogroup 6
+bind Alt+2,Alt+2 add_to_autogroup 7
+bind Alt+3,Alt+3 add_to_autogroup 8
+bind Alt+4,Alt+4 add_to_autogroup 9
+bind Alt+5,Alt+5 add_to_autogroup 0
 bind Alt+1 add_to_autogroup 1
 bind Alt+2 add_to_autogroup 2
 bind Alt+3 add_to_autogroup 3
 bind Alt+4 add_to_autogroup 4
 bind Alt+5 add_to_autogroup 5
-bind Alt+6 add_to_autogroup 6
-bind Alt+7 add_to_autogroup 7
-bind Alt+8 add_to_autogroup 8
-bind Alt+9 add_to_autogroup 9
-bind Alt+0 add_to_autogroup 0
 
 // bind Shift+Alt+1 load_autogroup_preset 1
 // bind Shift+Alt+2 load_autogroup_preset 2

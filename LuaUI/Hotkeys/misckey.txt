@@ -1,13 +1,13 @@
 // common interface keys //
 // bind esc quitmessage // collides with the deselect
 // bind Shift+esc quitmenu
-// bind Ctrl+Shift+esc quitforce
-// bind Alt+Shift+esc reloadforce
+// bind Ctrl+Shift+sc_esc quitforce
+// bind Alt+Shift+sc_esc reloadforce
 // bind Any+escape edit_escape
 bind Ctrl+Alt+1 pause
-bind esc teamstatus_close
-bind esc customgameinfo_close
-bind esc buildmenu_pregame_deselect
+bind sc_esc teamstatus_close
+bind sc_esc customgameinfo_close
+bind sc_esc buildmenu_pregame_deselect
 bind Alt+backspace fullscreen
 
 // common chat keys //
@@ -34,6 +34,7 @@ bind Ctrl+sc_v pastetext
 
 // UI //
 bind Any+sc_' togglelos
+bind Alt+sc_esc sharedialog
 
 bind Ctrl+Alt+6 viewta
 bind Ctrl+Alt+7 viewspring
