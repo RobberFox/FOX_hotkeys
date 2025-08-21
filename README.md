@@ -1,3 +1,6 @@
+### Installation
+1. Put `uikeys.txt` in `~/.local/state/Beyond All Reason/` and `Hotkeys/` in `~/.local/state/Beyond All Reason/LuaUI/`
+2. For cheatsheet, create `~/.local/state/Beyond All Reason/luaui/images/keybinds` and put desired `grid_keys.png` *(or other: https://github.com/beyond-all-reason/Beyond-All-Reason/tree/master/luaui/images/keybinds)* picture there.
 ### Keymap visualisation
 ![image](https://github.com/user-attachments/assets/95285580-c2f8-46ac-bf97-8553ae07f29e)
 Coloured words on the keys correspond to the Alt (yellow), Ctrl (green), Shift (purple) modifiers. Keys that are combinations of multiple modifiers are ommited.

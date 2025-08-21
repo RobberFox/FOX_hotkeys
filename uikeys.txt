@@ -18,8 +18,8 @@ bind sc_a wait
 bind Ctrl+sc_a stop
 bind Shift+sc_a gatherwait
 bind Alt+sc_a wait queued
-bind Ctrl+sc_z command_skip_current
-bind Ctrl+sc_x command_cancel_last
+bind Ctrl+sc_x command_skip_current
+bind Ctrl+sc_z command_cancel_last
 
 bind sc_w,sc_w repeat 1
 bind sc_w repeat 0
