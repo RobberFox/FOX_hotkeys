@@ -6,7 +6,7 @@
 Coloured words on the keys correspond to the Alt (yellow), Ctrl (green), Shift (purple) modifiers. Keys that are combinations of multiple modifiers are ommited.
 ### Keybinds with multiple modifiers
 ```txt
-bind Alt+Shift+sc_q remove_from_autogroup
+bind Alt+Ctrl+sc_q remove_from_autogroup
 
 bind Ctrl+Alt+sc_d selfd queued
 
@@ -20,5 +20,6 @@ bind Shift+Alt+sc_z buildspacing dec
 
 bind Ctrl+Shift+sc_d blueprint_delete
 
-bind Any+Shift+sc_v commandinsert prepend_between // prepend command into the queue between 2 commands close to cursor
+bind Any+Shift+sc_g commandinsert prepend_between
+bind Any+Shift+sc_b commandinsert prepend_queue
 ```

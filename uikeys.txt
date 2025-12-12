@@ -1,25 +1,26 @@
 unbindall // clear the defaults (required)
 
-// BAR hotkey config file: grid optimized for 60% keyboards
-// remap F-keys to use meta+ (spacebar) and ` to Q with modifiers
-
 // Load common keys //
-keyload LuaUI/Hotkeys/misckey.txt
-keyload LuaUI/Hotkeys/gridkey.txt
-keyload LuaUI/Hotkeys/numkey.txt
+keyload LuaUI/Hotkeys/mymisckey.txt
+keyload LuaUI/Hotkeys/mygridkey.txt
+keyload LuaUI/Hotkeys/mynumkey.txt
+
+unbindkeyset enter
+unbindaction chat
+fakemeta enter
 
 // My hotkeys //
-keyload LuaUI/Hotkeys/selectkey.txt
-keyload LuaUI/Hotkeys/buildkey.txt
-keyload LuaUI/Hotkeys/camerakey.txt
+keyload LuaUI/Hotkeys/myselectkey.txt
+keyload LuaUI/Hotkeys/mybuildkey.txt
+keyload LuaUI/Hotkeys/mycamerakey.txt
 
 // Unit actions: general //
 bind sc_a wait
 bind Ctrl+sc_a stop
 bind Shift+sc_a gatherwait
 bind Alt+sc_a wait queued
-bind Ctrl+sc_x command_skip_current
 bind Ctrl+sc_z command_cancel_last
+bind Ctrl+sc_x command_skip_current
 
 bind sc_w,sc_w repeat 1
 bind sc_w repeat 0
@@ -38,8 +39,14 @@ bind Alt+sc_t resurrect
 bind Ctrl+sc_d stopproduction
 bind sc_m restore
 
+bind sc_q,sc_q priority 0
+bind sc_q priority 1
+
 bind Ctrl+sc_s,Ctrl+sc_s factoryguard 0
 bind Ctrl+sc_s factoryguard 1
+
+bind Alt+sc_s,Alt+sc_s factoryqueuemode 0
+bind Alt+sc_s factoryqueuemode 1
 
 // Unit actions: combat //
 bind sc_g fight

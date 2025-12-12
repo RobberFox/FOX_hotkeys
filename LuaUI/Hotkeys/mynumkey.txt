@@ -1,0 +1,92 @@
+bind Alt+sc_q group unset
+bind Alt+Ctrl+sc_q remove_from_autogroup
+
+// bind                0,0  group select 0
+// bind                1,1  group select 1
+// bind                2,2  group select 2
+// bind                3,3  group select 3
+// bind                4,4  group select 4
+// bind                5,5  group select 5
+// bind                6,6  group select 6
+// bind                7,7  group select 7
+// bind                8,8  group select 8
+// bind                9,9  group select 9
+// bind                0  select Visible+_InGroup_0+_ClearSelection_SelectAll
+// bind                1  select Visible+_InGroup_1+_ClearSelection_SelectAll
+// bind                2  select Visible+_InGroup_2+_ClearSelection_SelectAll
+// bind                3  select Visible+_InGroup_3+_ClearSelection_SelectAll
+// bind                4  select Visible+_InGroup_4+_ClearSelection_SelectAll
+// bind                5  select Visible+_InGroup_5+_ClearSelection_SelectAll
+// bind                6  select Visible+_InGroup_6+_ClearSelection_SelectAll
+// bind                7  select Visible+_InGroup_7+_ClearSelection_SelectAll
+// bind                8  select Visible+_InGroup_8+_ClearSelection_SelectAll
+// bind                9  select Visible+_InGroup_9+_ClearSelection_SelectAll
+
+// group recovery //
+bind 1,1 group focus 1
+bind 2,2 group focus 2
+bind 3,3 group focus 3
+bind 4,4 group focus 4
+bind 5,5 group focus 5
+bind Shift+1,Shift+1 group focus 6
+bind Shift+2,Shift+2 group focus 7
+bind Shift+3,Shift+3 group focus 8
+bind Shift+4,Shift+4 group focus 9
+bind Shift+5,Shift+0 group focus 0
+
+bind 1 group select 1
+bind 2 group select 2
+bind 3 group select 3
+bind 4 group select 4
+bind 5 group select 5
+bind Shift+1 group select 6
+bind Shift+2 group select 7
+bind Shift+3 group select 8
+bind Shift+4 group select 9
+bind Shift+5 group select 0
+
+bind meta+1 group selectadd 1
+bind meta+2 group selectadd 2
+bind meta+3 group selectadd 3
+bind meta+4 group selectadd 4
+bind meta+5 group selectadd 5
+bind meta+Shift+1 group selectadd 6
+bind meta+Shift+2 group selectadd 7
+bind meta+Shift+3 group selectadd 8
+bind meta+Shift+4 group selectadd 9
+bind meta+Shift+5 group selectadd 0
+
+// groups //
+bind Ctrl+1 group set 1
+bind Ctrl+2 group set 2
+bind Ctrl+3 group set 3
+bind Ctrl+4 group set 4
+bind Ctrl+5 group set 5
+bind Ctrl+Shift+1 group set 6
+bind Ctrl+Shift+2 group set 7
+bind Ctrl+Shift+3 group set 8
+bind Ctrl+Shift+4 group set 9
+bind Ctrl+Shift+5 group set 0
+
+// autogroups //
+bind Alt+1 add_to_autogroup 1
+bind Alt+2 add_to_autogroup 2
+bind Alt+3 add_to_autogroup 3
+bind Alt+4 add_to_autogroup 4
+bind Alt+5 add_to_autogroup 5
+bind Alt+1,Alt+1 add_to_autogroup 6
+bind Alt+2,Alt+2 add_to_autogroup 7
+bind Alt+3,Alt+3 add_to_autogroup 8
+bind Alt+4,Alt+4 add_to_autogroup 9
+bind Alt+5,Alt+5 add_to_autogroup 0
+
+// spectators //
+bind 1 specteam 0
+bind 2 specteam 1
+bind 3 specteam 2
+bind 4 specteam 3
+bind 5 specteam 4
+bind 6 specteam 5
+bind 7 specteam 6
+bind 8 specteam 7
+bind 9 specteam 8

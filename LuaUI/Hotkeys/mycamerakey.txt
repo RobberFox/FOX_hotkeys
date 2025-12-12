@@ -7,8 +7,8 @@ bind sc_f moveright
 bind sc_r toggleoverview
 bind Alt+sc_o cameraflip
 
-bind Ctrl+sc_r track
-bind Alt+sc_r trackmode
+// bind Ctrl+sc_r track
+// bind Alt+sc_r trackmode
 
 // bind Any+alt movereset // fast camera reset on mousewheel
 // bind Any+alt moverotate // rotate on x,y with mmb hold + move (Spring Camera)

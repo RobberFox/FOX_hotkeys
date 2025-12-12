@@ -11,7 +11,7 @@ bind sc_esc buildmenu_pregame_deselect
 bind Alt+backspace fullscreen
 
 // common chat keys //
-bind Any+enter chat
+// bind Any+enter chat
 bind Alt+ctrl+sc_a chatswitchally
 bind Alt+ctrl+sc_s chatswitchspec
 
@@ -28,7 +28,7 @@ bind Any+left edit_prev_char
 bind Any+right edit_next_char
 bind Ctrl+left edit_prev_word
 bind Ctrl+right edit_next_word
-bind Any+enter edit_return
+// bind Any+enter edit_return
 
 bind Ctrl+sc_v pastetext
 
@@ -36,13 +36,14 @@ bind Ctrl+sc_v pastetext
 bind Any+sc_' togglelos
 bind Alt+sc_esc sharedialog
 
-bind Ctrl+Alt+6 viewta
-bind Ctrl+Alt+7 viewspring
-bind Ctrl+Alt+8 HideInterface
 bind Ctrl+Alt+2 LastMsgPos
 bind Ctrl+Alt+3 ShowPathTraversability
 bind Ctrl+Alt+4 ShowMetalMap
 bind Ctrl+Alt+5 ShowElevation
+
+bind Ctrl+Alt+6 viewta
+bind Ctrl+Alt+7 viewspring
+bind Ctrl+Alt+8 HideInterface
 
 bind f10 options
 bind f12 luaui selector

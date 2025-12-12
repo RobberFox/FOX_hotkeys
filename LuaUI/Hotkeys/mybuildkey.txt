@@ -1,0 +1,20 @@
+// building //
+bind Ctrl+sc_c buildfacing inc
+bind Ctrl+sc_v buildfacing dec
+bind Shift+Alt+sc_x buildspacing inc
+bind Shift+Alt+sc_z buildspacing dec
+
+bind Ctrl+sc_q areamex
+
+// blueprint //
+bind Alt+sc_v blueprint_place
+bind Alt+sc_c blueprint_create
+bind Ctrl+Shift+sc_d blueprint_delete
+bind Alt+sc_z blueprint_prev
+bind Alt+sc_x blueprint_next
+
+bind Any+enter buildsplit // activate build split mode (distribute orders between selected builders) | Build Split Widget
+
+// commandinsert keys // - messes with the factory queue
+bind Any+Shift+sc_g commandinsert prepend_between
+bind Any+Shift+sc_b commandinsert prepend_queue
